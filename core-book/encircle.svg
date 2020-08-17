@@ -1,0 +1,23 @@
+<svg width="440" height="300" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Encircle</title>
+  <rect x="0" y="0" width="440" height="300" id="canvas_background" fill="#fff" stroke="#000"/>
+  <line id="midx" stroke="#888" stroke-dasharray="3,1" y2="300" x2="220" y1="0" x1="220"/>
+  <line id="midy" stroke="#888" stroke-dasharray="3,1" y2="150" x2="440" y1="150" x1="0"/>
+ </g>
+ <g>
+  <title>Player A</title>
+  <path id="player1" d="m160,0l0,60l280,0l0,-60l-280,0z" stroke="#000" fill-opacity="0.5" fill="#f88"/>
+ </g>
+ <g>
+  <title>Player B</title>
+  <path id="player2" d="m0,240l0,60l280,0l0,-60l-280,0z" stroke="#000" fill-opacity="0.5" fill="#88f"/>
+ </g>
+ <g>
+  <title>Objective</title>
+  <circle id="obj1" cx="60" cy="180" r="8" stroke="black" stroke-width="1" fill="yellow" />
+  <circle id="obj2" cx="380" cy="120" r="8" stroke="black" stroke-width="1" fill="yellow" />
+  <circle id="obj3" cx="160" cy="90" r="8" stroke="black" stroke-width="1" fill="yellow" />
+  <circle id="obj4" cx="280" cy="210" r="8" stroke="black" stroke-width="1" fill="yellow" />
+ </g>
+</svg>

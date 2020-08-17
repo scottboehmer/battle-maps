@@ -1,0 +1,27 @@
+<svg width="600" height="440" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Vital Intelligence</title>
+  <rect x="0" y="0" width="600" height="440" id="canvas_background" fill="#fff" stroke="#000"/>
+  <line id="midx" stroke="#888" stroke-dasharray="3,1" y2="440" x2="300" y1="0" x1="300"/>
+  <line id="midy" stroke="#888" stroke-dasharray="3,1" y2="220" x2="600" y1="220" x1="0"/>
+  <line id="diag" stroke="#888" stroke-dasharray="3,1" y2="440" x2="600" y1="0" x1="0" />
+  <line id="diag2" stroke="#888" stroke-dasharray="3,1" y2="0" x2="600" y1="440" x1="0" />
+ </g>
+ <g>
+  <title>Player A</title>
+  <path id="player1" d="m203,0l397,0l0,291l-397,-291z" stroke="#000" fill-opacity="0.5" fill="#f88"/>
+ </g>
+ <g>
+  <title>Player B</title>
+  <path id="player2" d="m0,440l397,0l-397,-291l0,291z" stroke="#000" fill-opacity="0.5" fill="#88f"/>
+ </g>
+ <g>
+  <title>Objective</title>
+  <circle id="obj1" cx="203" cy="149" r="8" stroke="black" stroke-width="1" fill="yellow" />
+  <circle id="obj2" cx="107" cy="78" r="8" stroke="black" stroke-width="1" fill="yellow" />
+  <circle id="obj3" cx="397" cy="291" r="8" stroke="black" stroke-width="1" fill="yellow" />
+  <circle id="obj4" cx="493" cy="362" r="8" stroke="black" stroke-width="1" fill="yellow" />
+  <circle id="obj5" cx="445" cy="114" r="8" stroke="black" stroke-width="1" fill="yellow" />
+  <circle id="obj6" cx="155" cy="326" r="8" stroke="black" stroke-width="1" fill="yellow" />
+ </g>
+</svg>
