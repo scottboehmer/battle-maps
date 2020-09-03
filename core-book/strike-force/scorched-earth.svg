@@ -7,19 +7,25 @@
  </g>
  <g>
   <title>Player A</title>
-  <path id="player1" d="m0,0l600,0l0,100l-600,0l0,-100z" stroke="#000" fill-opacity="0.5" fill="#f88"/>
+  <path id="player1" d="m0,0l600,0l0,100l-600,0l0,-100z" stroke="#000" fill-opacity="0.5" fill="#88f"/>
  </g>
  <g>
   <title>Player B</title>
-  <path id="player2" d="m0,340l600,0l0,100l-600,0l0,-100z" stroke="#000" fill-opacity="0.5" fill="#88f"/>
+  <path id="player2" d="m0,340l600,0l0,100l-600,0l0,-100z" stroke="#000" fill-opacity="0.5" fill="#f88"/>
  </g>
  <g>
-  <title>Objective</title>
-  <circle id="obj1" cx="120" cy="220" r="8" stroke="black" stroke-width="1" fill="yellow" />
-  <circle id="obj2" cx="480" cy="220" r="8" stroke="black" stroke-width="1" fill="yellow" />
-  <circle id="obj3" cx="180" cy="100" r="8" stroke="black" stroke-width="1" fill="yellow" />
-  <circle id="obj4" cx="180" cy="340" r="8" stroke="black" stroke-width="1" fill="yellow" />
-  <circle id="obj5" cx="420" cy="100" r="8" stroke="black" stroke-width="1" fill="yellow" />
-  <circle id="obj6" cx="420" cy="340" r="8" stroke="black" stroke-width="1" fill="yellow" />
+  <title>Objective A</title>
+  <circle id="obj1" cx="180" cy="100" r="8" stroke="black" stroke-width="1" fill="blue" />
+  <circle id="obj2" cx="420" cy="100" r="8" stroke="black" stroke-width="1" fill="blue" />
+ </g>
+ <g>
+  <title>Objective B</title>
+  <circle id="obj3" cx="180" cy="340" r="8" stroke="black" stroke-width="1" fill="red" />
+  <circle id="obj4" cx="420" cy="340" r="8" stroke="black" stroke-width="1" fill="red" />
+ </g>
+ <g>
+  <title>Objective C</title>
+  <circle id="obj5" cx="120" cy="220" r="8" stroke="black" stroke-width="1" fill="yellow" />
+  <circle id="obj6" cx="480" cy="220" r="8" stroke="black" stroke-width="1" fill="yellow" />
  </g>
 </svg>
