@@ -9,11 +9,11 @@
  </g>
  <g>
   <title>Player A</title>
-  <path id="player1" d="m203,0l397,0l0,291l-397,-291z" stroke="#000" fill-opacity="0.5" fill="#f88"/>
+  <path id="player1" d="m203,0l397,0l0,291l-397,-291z" stroke="#000" fill-opacity="0.5" fill="#88f"/>
  </g>
  <g>
   <title>Player B</title>
-  <path id="player2" d="m0,440l397,0l-397,-291l0,291z" stroke="#000" fill-opacity="0.5" fill="#88f"/>
+  <path id="player2" d="m0,440l397,0l-397,-291l0,291z" stroke="#000" fill-opacity="0.5" fill="#f88"/>
  </g>
  <g>
   <title>Objective</title>

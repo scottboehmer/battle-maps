@@ -7,17 +7,20 @@
  </g>
  <g>
   <title>Player A</title>
-  <path id="player1" d="m0,0l220,300l-220,0l0,-300z" stroke="#000" fill-opacity="0.5" fill="#f88"/>
+  <path id="player1" d="m0,0l220,300l-220,0l0,-300z" stroke="#000" fill-opacity="0.5" fill="#88f"/>
  </g>
  <g>
   <title>Player B</title>
-  <path id="player2" d="m440,0l0,300,l-220,-300l220,0z" stroke="#000" fill-opacity="0.5" fill="#88f"/>
+  <path id="player2" d="m440,0l0,300,l-220,-300l220,0z" stroke="#000" fill-opacity="0.5" fill="#f88"/>
  </g>
  <g>
-  <title>Objective</title>
+  <title>Objective A</title>
   <circle id="obj1" cx="220" cy="70" r="8" stroke="black" stroke-width="1" fill="yellow" />
   <circle id="obj2" cx="220" cy="230" r="8" stroke="black" stroke-width="1" fill="yellow" />
-  <circle id="obj3" cx="100" cy="70" r="8" stroke="black" stroke-width="1" fill="yellow" />
-  <circle id="obj4" cx="340" cy="230" r="8" stroke="black" stroke-width="1" fill="yellow" />
+ </g>
+ <g>
+  <title>Objective B</title>
+  <circle id="obj3" cx="100" cy="70" r="8" stroke="black" stroke-width="1" fill="green" />
+  <circle id="obj4" cx="340" cy="230" r="8" stroke="black" stroke-width="1" fill="green" />
  </g>
 </svg>
